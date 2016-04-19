@@ -1,0 +1,12 @@
+Today I found out your git can have more than one remote.
+remote set-URL [An existing remote name:origin and upstream are so common] [url]
+If you are updating to use http your URL might look like :
+https://github.com/username/otherrepostory.git
+
+if you are updating to use SSH, your URL might look like:
+git@github.com:/username/otherrepository.git
+
+git remote -v
+//lists all your remotes with their name
+
+
